@@ -1,0 +1,135 @@
+@font-face {
+	font-family: "Neothic";
+	src: url('http://localhost:3000/94-font.ttf');
+}
+@media screen and (min-width: 1750px){
+   .containerSection2{
+      padding: 0 20%;
+      justify-content: space-between;
+   }
+}
+@media screen and (max-width: 1750px){
+   .containerSection2{
+      padding: 0 10%;
+      justify-content: space-between;
+   }
+}
+@media screen and (max-width: 1350px){
+   .containerSection2{
+      padding: 0;
+      justify-content: space-between;
+   }
+}
+@media screen and (max-width: 1350px){
+   .containerSection2{
+      padding: 0;
+      justify-content: space-around;
+   }
+}
+@media screen and (min-width: 900px){
+   .section1Div{
+      font-size: 24px;
+   }
+}
+@media screen and (max-width: 900px){
+   .section1Div{
+      font-size: 16px;
+   }
+}
+@media screen and (max-width: 700px){
+   .section1Div{
+      font-size: 16px;
+   }
+   .containerSection2{
+      justify-content: center;
+   }
+}
+@media screen and (max-width: 600px){
+   .section1Div{
+      font-size: 16px;
+   }
+   .section1Div{
+      font-size: 12px;
+   }
+}
+@media screen and (max-width: 450px){
+   .section1Div{
+      font-size: 10px;
+   }
+}
+@media screen and (max-width: 350px){
+   .section1Div{
+      font-size: 8px;
+   }
+}
+.section1Div{
+   background: url(http://localhost:3000/scrudj.png) 100% 100% no-repeat;
+   background-size: contain;
+   background-color: #a5baab;
+   background-position: center;
+   color: white;
+   font-family: Monaco;
+}   
+.section1H3{
+   margin: 0;
+   font-size: 100%;
+   padding: 3% 0 0 0;
+   font-weight: 100;
+   font-family: system-ui;
+}
+.section1H1{
+   font-size: 300%;
+   margin: 1% 0 0 0;
+}  
+.section1H4{
+   font-size: 100%;
+   margin: 1% 0 0 0;
+}
+.section1Btn{
+   border: 1px solid #f1c50e;
+   border-radius: 24px;
+   width: 8em;
+   height: 2.5em;
+   font-size: 100%;
+   background-color: #f1c50e;
+   color: white;
+   margin: 2% 0 17% 0;
+}
+.section2{
+   color: black;
+   font-family: Monaco;
+}
+.section2H3{
+   font-size: 150%;
+   margin: 1% 0 0 0;
+}
+.section2H2{
+   font-size: 300%;
+   margin: 1% 0 0 0;
+}
+.containerSection2{
+   display: flex;
+   flex-wrap: wrap;
+}
+.articleSection2{
+   min-width: 300px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 2%;
+}
+.roundDiv{
+   width: 5em;
+   height: 5em;
+   border-radius: 50%;
+   background-color: #a5baab;
+}
+.articleH3{
+   font-size: 150%;
+   margin: 5% 0 0 0;
+}
+.articleP{
+   font-size: 150%;
+   margin: 10% 0 0 0;
+   max-width: 200px;
+}
