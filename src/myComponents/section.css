@@ -63,7 +63,7 @@
    }
 }
 .section1Div{
-   background: url(http://localhost:3000/scrudj.png) 100% 100% no-repeat;
+   background: url(http://localhost:3030/scrudj.png) 100% 100% no-repeat;
    background-size: contain;
    background-color: #a5baab;
    background-position: center;
@@ -118,6 +118,9 @@
    align-items: center;
    margin: 2%;
 }
+.invisible{
+   visibility: hidden;
+}
 .roundDiv{
    width: 5em;
    height: 5em;
@@ -132,4 +135,22 @@
    font-size: 150%;
    margin: 10% 0 0 0;
    max-width: 200px;
+}
+.section3{
+   display: flex;
+   justify-content: center;
+}
+.clockDiv{
+   position: relative;
+   width: 220px;
+   padding: 20px;
+   background:url(http://localhost:3030/clock1.jpg) no-repeat center/110%;
+}
+.timeCounter{
+   position: absolute;
+   z-index: 5;
+   top: calc(50% - 30px);
+   left: 0;
+   width: 100%;
+   font-size: 35px;
 }
